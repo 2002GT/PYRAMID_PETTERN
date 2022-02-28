@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   
+    int n;
+    cin>>n;
+    //  dicreasing number pattern
+    for(int i=1; i<=5; i++){
+        for(int s=i; s <= n; s++){
+            cout<<i;
+        }
+        
+        cout<<endl;
+        
+    }
+    
+    //  incresing number patern
+    
+    for(int i=1; i<=5; i++){
+        for(int s=1; s <= i; s++){
+            cout<<i;
+        }
+        
+        cout<<endl;
+        
+    }
+    
+    
+
+    return 0;
+}
+
